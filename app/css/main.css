@@ -120,7 +120,7 @@
 }
 
 .services {
-  padding: 20px;  
+  padding: 5px 20px 50px 20px;  
   background: #F3F3F3;
 }
 
@@ -155,6 +155,113 @@
 .card-body {
   font-size: 1.2rem;
 }
+
+.why {
+  margin: 70px auto;
+  width: 90%;
+}
+
+.why h1 {
+  text-align: center;
+  color: #001B54;
+}
+
+.why-container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.why-pic {
+  max-width: 950px;
+}
+
+.why-pic img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.why-1-container, .why-2-container {
+  margin: 70px auto;
+}
+
+.why-1-container h2, .why-2-container h2 {
+  font-size: 2rem;
+}
+
+.why-1-container p, .why-2-container p {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+footer {
+  background: #001B54;
+  padding: 50px 0px 70px 0px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-info h2, .hours h2 {
+  color: #fff;
+}
+
+.address a, .phone span {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.map-icon, .phone-icon {
+  color: #C2B59B;
+}
+
+.hours-container p {
+  color: #fff;
+}
+
+.contact-form h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #001B54;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.form textarea {
+  padding: 8px;
+  font-size: 1.2rem;
+  color: #001B54;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.form button {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #001B54;
+  background: #C2B59B;
+  border: none;
+  cursor: pointer;
+}
+
+
+
 
 
 
