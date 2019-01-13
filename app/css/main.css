@@ -1,6 +1,7 @@
 .header {
   height: 95vh;
   width: 100%;
+  margin-bottom: 200px;
 }
 
 /* NAVBAR */
@@ -26,10 +27,12 @@
 .navbar-nav {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .nav-item {
   margin-left: 10px;
+  color: #fff;
 }
 
 .nav-link {
@@ -41,6 +44,43 @@
 .nav-link:hover {
   text-decoration: none;
   color: #fff;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-btn {
+  font-size: 2rem;
+  cursor: pointer; 
+  color: #fff;
+}
+
+.menu-btn:hover {
+  color: #fff;
+}
+
+.sidebar {
+  background: #001B54;
+  width: 350px;
+}
+
+.side-nav {
+  list-style: none;
+  padding: 0px;
+}
+
+.side-nav-item {
+  margin-bottom: 20px;
+}
+
+.side-nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.side-nav-link:hover {
+  text-decoration: none;
 }
 
 /* HEADER */
@@ -63,9 +103,11 @@
   width: 100%;
 }
 
+/* INTRO SECTION */
+
 .intro {
   width: 90%;
-  margin: 200px auto 100px auto;
+  margin: 0px auto 100px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -143,7 +185,6 @@
 .uk-card {
   color: #001B54;
   width: 370px;
-  /* border: 3px solid #001B54; */
 }
 
 .card-title {
@@ -224,6 +265,10 @@ footer {
   color: #fff;
 }
 
+.contact-form {
+  max-width: 550px;
+}
+
 .contact-form h2 {
   color: #fff;
   text-align: center;
@@ -232,7 +277,7 @@ footer {
 .form {
   display: flex;
   flex-direction: column;
-  width: 550px;
+  width: 100%;
 }
 
 .form input {
@@ -259,6 +304,104 @@ footer {
   border: none;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 993px) {
+  /* NAVBAR */
+
+  .link {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  /* INTRO SECTION */
+
+  .intro {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .title-container, .intro-pic {
+    margin: 0 auto;
+  }
+
+  .title-container {
+    text-align: center;
+  }
+
+  .work-item {
+    flex-direction: column;
+  }
+
+  .paw-icon {
+    margin-bottom: 10px;
+  }
+
+  .intro-pic {
+    height: 400px;
+    margin-top: 20px;
+  }
+
+  /* SERVICES SECTION */
+
+  .services {
+    margin-top: 100px;
+  }
+
+  .services-cards {
+    flex-direction: column;
+  }
+
+  .uk-card {
+    margin: 0px auto 40px auto;
+  }
+
+  /* WHY SECTION */
+
+  .why {
+    text-align: center;
+  }
+
+  .why-container {
+    flex-direction: column;
+  }
+
+  .why-pic {
+    display: none;
+  }
+
+  .support, .pricing {
+    margin-bottom: 40px;
+  }
+
+  .pricing {
+    margin-top: -80px;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .general-info {
+    margin-bottom: 0 auto ;
+    text-align: center;
+  }
+
+  .contact-form {
+    margin: 40px auto 0px auto;
+    width: 100%;
+  }
+
+  .form {
+    margin: 0 auto;
+  }
+}
+
+
 
 
 
